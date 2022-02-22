@@ -1,0 +1,152 @@
+/* &display=swap */
+
+/* ---------------------------Блок 1------------------------------------ */
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Lato:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@100;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Taviraj&display=swap");
+
+body {
+    font-family: "Lato", Arial, serif;
+    font-size: 16px;
+    color: rgba(66, 69, 81, 1);
+}
+
+.wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+    min-height: 100%;
+    max-width: 855px;
+}
+
+.buttom {
+    display: inline-block;
+    text-align: center;
+    min-width: 220px;
+    min-height: 70px;
+    background-color: rgb(136, 245, 208);
+    border: 1px solid rgb(67, 168, 135);
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px rgb(151, 214, 194);
+    margin: 0px 0px 0px 20px;
+ }
+ 
+ .buttom a {
+    display: inline-block;
+    padding: 20px 25px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 900;
+ }
+
+.block-header {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 46px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 130%;
+    color: rgba(30, 33, 44, 1);
+    margin-bottom: 26px;
+}
+
+.text-calender {
+    display: inline-block;
+    padding-left: 25px;
+    margin: 0px 0px 40px 0px;
+    background: url("../img/Calendar.svg") no-repeat;
+}
+
+.text-clock {
+    display: inline-block;
+    padding-left: 25px;
+    margin: 0px 0px 40px 24px;
+    background: url("../img/Clock.svg") no-repeat;
+}
+
+.share-block {
+    display: inline-block;
+    margin: 0px 0px 40px 390px;
+}
+
+.share-block span {
+    display: inline-block;
+    padding: 0px 12px 0px 0px;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.facebook {
+    display: inline-block;
+    padding: 0px 12px 0px 0px;
+}
+.twitter {
+    display: inline-block;
+    padding: 0px 12px 0px 0px;
+}
+.linkedink {
+    display: inline-block;
+    padding: 0px 12px 0px 0px;
+}
+
+.block-foto {
+    margin: 0px 0px 60px 0px;
+}
+
+.block-text-bold {
+    font-size: 20px;
+    color: rgba(30, 33, 44, 1);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0px 0px 24px 0px;
+}
+
+.block-text-normal {
+    font-style: normal;
+    line-height: 160%;
+    color: #424551;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px 0px 48px 0px;
+}
+.text {
+    margin: 0px 0px 24px 0px;
+}
+
+.block-2-text-bold {
+    margin: 0px 0px 48px 0px;
+}
+
+.text-bold-1,
+.text-bold {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: rgba(30, 33, 44, 1);
+}
+
+.text-bold {
+    padding-left: 40px;
+    background: url("../img/braces.svg") no-repeat;
+}
+
+.text-list {
+    margin: 0px 0px 24px 0px;
+    line-height: 160%;
+}
+
+.list {
+    margin: 0 0 24px 0px;
+    /* из Figma  line-height 25.6/16px*/
+    text-indent: 30px;
+    line-height: 1.6;
+}
+
+.list-item {
+    background: url("../img/check.svg") 0 5px / 16px no-repeat;
+}

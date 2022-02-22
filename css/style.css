@@ -1,0 +1,258 @@
+/* &display=swap */
+
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Lato:wght@400;700;900&display=swap");
+
+body {
+   font-family: "Lato", Arial, serif;
+   font-size: 16px;
+   color: rgb(139, 139, 139);
+}
+
+.wrapper {
+   overflow: hidden;
+   min-height: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+   outline: 7px dashed rgb(136, 245, 208);
+}
+
+.header {
+   margin-top: 50px;
+}
+.buttom {
+   display: inline-block;
+   text-align: center;
+   min-width: 150px;
+   min-height: 70px;
+   background-color: rgb(136, 245, 208);
+   border: 1px solid rgb(67, 168, 135);
+   border-radius: 30px;
+   box-shadow: 3px 3px 10px rgb(151, 214, 194);
+   margin: 0px 0px 30px 20px;
+}
+
+.buttom a {
+   display: inline-block;
+   padding: 20px 25px;
+   color: rgb(255, 255, 255);
+   font-size: 25px;
+   font-weight: 900;
+}
+
+.main {
+   margin: 0px 0px 100px 0px;
+   min-height: 1200px;
+   background-color: rgba(255, 245, 224, 0.815);
+   padding-top: 30px;
+}
+.text {
+   text-align: center;
+   font-weight: 400;
+   line-height: 1.5;
+   margin: 0px 0px 20px 0px;
+   font-size: 35px;
+   letter-spacing: 1.5px;
+}
+
+.box1 {
+   width: 150px;
+   height: 150px;
+   border-radius: 80px;
+   background: url("../img/drawing-tablet.png") center / auto 150px no-repeat;
+   margin: 0px 0px 0px 20px;
+}
+
+.box2 {
+   width: 250px;
+   height: 30px;
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+   background-color: rgba(24, 181, 164, 0.5);
+   visibility: hidden;
+}
+.box1:hover + .box2 {
+   visibility: visible;
+}
+.box2:hover {
+   visibility: visible;
+}
+
+.box3 {
+   width: 40px;
+   height: 315px;
+   margin-left: 210px;
+   background-color: rgb(255, 253, 132);
+   visibility: hidden;
+}
+
+.box2:hover + .box3 {
+   visibility: visible;
+}
+.box3:hover {
+   visibility: visible;
+}
+
+.box4 {
+   width: 220px;
+   height: 20px;
+   margin-left: 210px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   background-color: rgb(212, 93, 248);
+   visibility: hidden;
+}
+.box3:hover + .box4 {
+   visibility: visible;
+}
+.box4:hover {
+   visibility: visible;
+}
+
+.box5 {
+   width: 30px;
+   height: 180px;
+   margin-top: -200px;
+   margin-left: 400px;
+   background-color: rgb(93, 134, 248);
+   visibility: hidden;
+}
+.box4:hover + .box5 {
+   visibility: visible;
+}
+.box5:hover {
+   visibility: visible;
+}
+
+.box6 {
+   width: 150px;
+   height: 30px;
+   margin-top: -200px;
+   margin-left: 400px;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+   background-color: rgb(76, 245, 90);
+   visibility: hidden;
+}
+.box5:hover + .box6 {
+   visibility: visible;
+}
+
+.box6:hover {
+   visibility: visible;
+}
+
+.box7 {
+   width: 30px;
+   height: 380px;
+   margin-top: -30px;
+   margin-left: 520px;
+   border-top-right-radius: 30px;
+   border-bottom-left-radius: 30px;
+   background-color: rgb(245, 130, 76);
+   visibility: hidden;
+}
+
+.box6:hover + .box7 {
+   visibility: visible;
+}
+
+.box7:hover {
+   visibility: visible;
+}
+
+.box8 {
+   width: 240px;
+   height: 30px;
+   margin-top: -30px;
+   margin-left: 520px;
+   border-bottom-right-radius: 30px;
+   border-bottom-left-radius: 30px;
+   background-color: rgb(194, 9, 200);
+   visibility: hidden;
+}
+.box7:hover + .box8 {
+   visibility: visible;
+}
+
+.box8:hover {
+   visibility: visible;
+}
+
+.box9 {
+   width: 35px;
+   height: 140px;
+   margin-top: -165px;
+   margin-left: 725px;
+   border-top-left-radius: 35px;
+   background-color: rgb(74, 131, 91);
+   visibility: hidden;
+}
+
+.box8:hover + .box9 {
+   visibility: visible;
+}
+
+.box9:hover {
+   visibility: visible;
+}
+
+.box10 {
+   width: 320px;
+   height: 25px;
+   margin-top: -140px;
+   margin-left: 725px;
+   border-top-right-radius: 25px;
+   border-top-left-radius: 40px;
+   background-color: rgb(250, 104, 218);
+   visibility: hidden;
+}
+.box9:hover + .box10 {
+   visibility: visible;
+}
+
+.box10:hover {
+   visibility: visible;
+}
+
+.box11 {
+   width: 20px;
+   height: 240px;
+   margin-left: 1025px;
+   background-color: rgb(88, 87, 184);
+   visibility: hidden;
+}
+.box10:hover + .box11 {
+   visibility: visible;
+}
+
+.box11:hover {
+   visibility: visible;
+}
+
+.box-gift {
+   margin-left: 800px;
+   visibility: hidden;
+}
+.box12 {
+   max-width: 280px;
+   min-height: 200px;
+   background: url("../img/creativity.png") center / 200px auto no-repeat;
+}
+.text-2 {
+   text-align: right;
+   font-weight: 400;
+   line-height: 1.5;
+   font-size: 25px;
+   margin-right: 120px;
+}
+
+.box11:hover + .box-gift {
+   visibility: visible;
+}
+
+.box-gift:hover {
+   visibility: visible;
+   transition: all 0.4s ease 0s;
+   transform: rotate(3deg) scale(1.5);
+}
